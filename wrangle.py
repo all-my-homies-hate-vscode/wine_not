@@ -25,7 +25,7 @@ def train_val_test(df):
 
 
 def wrangle_wine():
-    wines = acuire_wine()
+    wines = acquire_wine()
     train, val, test = train_val_test(wines)
     return train, val, test
     
