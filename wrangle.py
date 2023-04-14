@@ -4,6 +4,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+from sklearn.model_selection import train_test_split
+
 
 def acquire_wine():
     red = pd.read_csv('https://query.data.world/s/6ydfnt5m4fjpceorhly36l6wlw6kas?dws=00000')
