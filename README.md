@@ -1,8 +1,10 @@
-# wine_not
+# Wine_Not
+
+[Acquisition](#Acquisition) [Preperation](#Preparation) [Exploration](#Exploration) [Modeling](#Modeling) [Conclusions](#Conclusions) <a href='#test'>Hyperlink to Test</a>
 
 ## Project description
 
-The aim of the project is to explore the relationship between various independent variables and the target variable (wine quality), and build models to predict wine quality based on these variables.
+The aim of the project is to explore the relationship between various independent variables and the target variable (wine quality), and build models to predict wine quality based on these variables. 
 
 ## Project Goals
 - To discover features that give wine a quality level
@@ -13,10 +15,10 @@ The aim of the project is to explore the relationship between various independen
 - Wine quality could be determined by several different varibles like alcohol precentage and acidity 
 
 # Planning
-
-## Data Acquisition
+<a id='test'>Test</a>
+## Acquisition
 The dataset used for this project was obtained from Data.World's Wine Quality Dataset (https://data.world/data-society/wine-quality-dataset). The dataset contains separate CSV files for red and white wines, with information on several wine properties.
-## Data Preparation
+## Preparation
 - Combine Red and White Wine CSVs: Merge the two separate CSV files for red and white wines into a single DataFrame, adding a new column called color to indicate whether each observation corresponds to a red or white wine.
 
 - Check Column Data Types: Ensure that each column's data type is appropriate for the data it contains. If necessary, convert columns to appropriate data types.
@@ -31,7 +33,7 @@ The dataset used for this project was obtained from Data.World's Wine Quality Da
 - Split the data into train, validate and Test
 
 
-## Data Exploration
+## Exploration
 - Explore Variable Interactions: Investigate the relationship between independent variables and the target variable (wine quality) using visualization techniques (e.g., scatter plots, box plots) and statistical testing (e.g., correlation coefficients, ANOVA).
 
 - Clustering Analysis: Use clustering techniques to explore the data and determine whether the clusters provide any meaningful insights. Perform the following steps:
@@ -140,7 +142,7 @@ After completing these steps, and analyzing the results the Decision tree had th
 - Run Notebook
 
 
-# Takeaways and Conclusions
+# Conclusions
 - Could not use clustering as a feature building method
 - Modeling on test data was 57% 
 - 13% better then baseline
